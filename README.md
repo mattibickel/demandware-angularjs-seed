@@ -11,7 +11,7 @@ If you never heard of the [Demandware platform](https://www.demandware.com) you'
 
 This project is built using [AngularJS](https://angularjs.org/), the self-described "Superheroic JavaScript MVW Framework". There are [similar](https://github.com/opencodes/demandware-ocapi) [projects](https://github.com/nhduy1985/demandware-backbones-client) around, check them out.
 
-Since OCAPI does not expose all features of a fully fledged Demandware powered store, yet, this demo site focuses on the parts we _can_ do right now (see [Features] further down).
+Since OCAPI does not expose all features of a fully fledged Demandware powered store, yet, this demo site focuses on the parts we _can_ do right now (see [Features](#Features) below).
 
 My personal pet peeve is performance tuning. So, please, if you find a way to do more with less send me a pull request.
 
