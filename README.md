@@ -5,7 +5,9 @@ demandware-angularjs-seed
 
 This aims to provide a demo site showcasing the use of the [Open Commerce API](https://info.demandware.com/DOC1/topic/help/OCAPI/14.8/usage/OpenCommerceAPI.html?cp=0_9) (site requires login).
 
-The Open Commerce API (short: OCAPI) is a [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) programming interface for the Demandware platform. It is an alternative to the pipeline programming model, where you visually design an execution flow to be executed on the Demandware platform for each request.
+The Open Commerce API (short: OCAPI) is a [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) programming interface for the Demandware platform. It is an alternative to the pipeline programming model, where you visually design an execution flow to be executed on the Demandware platform for each request. 
+
+If you never heard of the [Demandware platform](https://www.demandware.com) you're still invited to look around here. But all documentation content, OCAPI access and more is currently restricted to developers who are already signed up, sorry.
 
 This project is built using [AngularJS](https://angularjs.org/), the self-described "Superheroic JavaScript MVW Framework". There are [similar](https://github.com/opencodes/demandware-ocapi) [projects](https://github.com/nhduy1985/demandware-backbones-client) around, check them out.
 
