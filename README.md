@@ -17,18 +17,20 @@ My personal pet peeve is performance tuning. So, please, if you find a way to do
 
 This assumes you already have the Node.js package manager (npm) installed. See [it's documentation](https://www.npmjs.org/doc/README.html) for how to do this.
 
-> git clone https://github.com/mattibickel/demandware-angularjs-seed.git
-> sudo npm install -g grunt-cli # skip this if you already have GruntJS
-> sudo npm install -g bower # skip this if you already have Bower
-> cd demandware-angularjs-seed
-> npm install
-> bower install
-> sed -e '/baseUrl/ s,base-url,http://api.example.com,' \
->     -e '/apiVersion/ s,api-version,14.8,' \
->     -e '/clientId/ s,client-id,1234,' \
->     -e '/publicSiteUrl/ s,public-site-url,http://www.example.com,' \
->     app/scripts/config.js.dist > app/scripts/config.js
-> grunt server
+```
+git clone https://github.com/mattibickel/demandware-angularjs-seed.git
+sudo npm install -g grunt-cli # skip this if you already have GruntJS
+sudo npm install -g bower # skip this if you already have Bower
+cd demandware-angularjs-seed
+npm install
+bower install
+sed -e '/baseUrl/ s,base-url,http://api.example.com,' \
+    -e '/apiVersion/ s,api-version,14.8,' \
+    -e '/clientId/ s,client-id,1234,' \
+    -e '/publicSiteUrl/ s,public-site-url,http://www.example.com,' \
+    app/scripts/config.js.dist > app/scripts/config.js
+grunt server
+```
 
 Of course you want to substitute your own sandbox URL for `baseUrl` and `publicSiteUrl`. You also need a `clientId`. This is a token that you generate in Account Manager, see [OCAPI client identification](https://info.demandware.com/DOC1/topic/help/OCAPI/14.8/usage/ClientApplicationIdentification.html?cp=0_9_0_1) for details.
 
