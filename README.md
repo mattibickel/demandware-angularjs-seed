@@ -3,7 +3,7 @@ demandware-angularjs-seed
 
 # What this project is
 
-This aims to provide a demo site showcasing the use of the [Open Commerce API](https://info.demandware.com/DOC1/topic/help/OCAPI/14.8/usage/OpenCommerceAPI.html?cp=0_9) (requires login).
+This aims to provide a demo site showcasing the use of the [Open Commerce API](https://info.demandware.com/DOC1/topic/help/OCAPI/14.8/usage/OpenCommerceAPI.html?cp=0_9) (site requires login).
 
 The Open Commerce API (short: OCAPI) is a [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) programming interface for the Demandware platform. It is an alternative to the pipeline programming model, where you visually design an execution flow to be executed on the Demandware platform for each request.
 
