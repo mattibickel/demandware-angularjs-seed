@@ -27,8 +27,6 @@ cd demandware-angularjs-seed
 npm install
 bower install
 sed -e '/baseUrl/ s,base-url,http://api.example.com,' \
-    -e '/apiVersion/ s,api-version,14.8,' \
-    -e '/clientId/ s,client-id,1234,' \
     -e '/publicSiteUrl/ s,public-site-url,http://www.example.com,' \
     app/scripts/config.js.dist > app/scripts/config.js
 grunt server
