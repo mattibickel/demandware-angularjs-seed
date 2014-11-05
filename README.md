@@ -32,9 +32,7 @@ sed -e '/baseUrl/ s,base-url,http://api.example.com,' \
 grunt server
 ```
 
-Of course you want to substitute your own sandbox URL for `baseUrl` and `publicSiteUrl`. You also need a `clientId`. This is a token that you generate in Account Manager, see [OCAPI client identification](https://info.demandware.com/DOC1/topic/help/OCAPI/14.8/usage/ClientApplicationIdentification.html?cp=0_9_0_1) for details.
-
- - Don't forget to add your development server to 'allowed_origins' in Business Manager.
+Of course you want to substitute your own sandbox URL for `baseUrl` and `publicSiteUrl`. Don't forget to add your development server to the `allowed_origins` key of the OCAPI settings under `Site Development` in Business Manager.
 
 # Features
 
@@ -48,7 +46,7 @@ Of course you want to substitute your own sandbox URL for `baseUrl` and `publicS
 - [ ] Shopping cart
 - [ ] Checkout
 
-# Screenshots:
+# Screenshots
 
 Category page screenshot:
 ![alt text](https://raw.githubusercontent.com/nhduy1985/demandware-angularjs-seed/develop/screenshots/ss_category_1.png "Category Page")
