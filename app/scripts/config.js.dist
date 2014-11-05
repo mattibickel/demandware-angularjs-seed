@@ -8,8 +8,8 @@ angular
 	},
 	'demandware': {
 		'baseUrl': 'base-url',
-		'apiVersion': 'api-version',
-		'clientId': 'client-id',
 		'publicSiteUrl': 'public-site-url'
+		'apiVersion': '14.8',
+		'clientId': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 	}
 });
